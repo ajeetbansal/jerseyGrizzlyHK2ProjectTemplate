@@ -1,5 +1,7 @@
 # Build instructions
-Note: If you are running behind proxy, then update the proxy settings in gradle.properties.
+##Environment Settings
+* set JAVA_HOME environment variable to point to latest JDK 8 installation.
+* If you are running behind proxy, then update the proxy settings in gradle.properties.
 
 ##  Compile and run unit tests
 $gradlew build
