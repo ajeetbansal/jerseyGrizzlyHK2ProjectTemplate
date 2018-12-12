@@ -1,0 +1,6 @@
+rootProject.name = 'javaGradleProjectTemplate'
+include 'common'
+include 'web'
+include 'moduleTemplate'
+include 'webTemplate'
+
