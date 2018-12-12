@@ -5,10 +5,14 @@ Note: If you are running behind proxy, then update the proxy settings in gradle.
 $gradlew build
 
 ## Assembly
+Note: Assembly is applicable for only the deployable modules like webTemplate.
 ### As standalone  application
 $ gradlew installDist
-* For webTemplate project,  webTemplate/build/distributions  directory will contain the binaries for the application  packages as zip and tar files. The  executable application will also be installed under webTemplate/build/install/webTemplate directory.
-
+* For webTemplate project,  webTemplate/build/distributions  directory will contain the binaries for the application  packages as zip and tar files. 
+* The  executable application will also be installed under webTemplate/build/install/webTemplate directory. 
+* The service port can be configured by setting the servicePort property in the webTemplate/build.gradle.
+* The service port can also be specified while running the executable by setting the JAVA_OPTS environment varible to "-DservicePort=<port>"
+  
 ## Integration Testing
 * Integration test pertaining to sub project reside under <subProjectRoot>/src/integrationTest directory
 
