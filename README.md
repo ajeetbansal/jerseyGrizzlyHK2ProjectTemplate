@@ -1,5 +1,5 @@
 # Build instructions
-Note: If you are running behind proxy, then update the proxy settings in gradle.properties, otherwise empty or comment the content in gradle.properties file.
+Note: If you are running behind proxy, then update the proxy settings in gradle.properties.
 
 ##  Compile and run unit tests
 $gradlew build
