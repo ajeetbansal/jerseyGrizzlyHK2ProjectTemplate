@@ -1,4 +1,4 @@
-rootProject.name = 'dindora'
+rootProject.name = 'jerseyGrizzlyHK2ProjectTemplate'
 include 'common'
 include 'web'
 include 'moduleTemplate'
