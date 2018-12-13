@@ -14,6 +14,9 @@ dependencies {
             ['org.glassfish.jersey.core:jersey-client:2.26']
     )
     if(project.name != "common") {
+        compile (
+                project(':common')
+        )
         testImplementation  project(':common').sourceSets.test.output
     }
 }
